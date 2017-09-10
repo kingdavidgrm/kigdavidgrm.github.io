@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 15px; }
 
 #page #landing {
-  height: 100vh;
+  height: 100%;
   overflow: hidden; }
   #page #landing #background {
     position: absolute;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 100%; }
   #page #landing #landing-action {
     display: flex;
-    margin: 60% auto 25px;
+    margin: 50% auto 25px;
     justify-content: center; }
     #page #landing #landing-action #book {
       color: white;
