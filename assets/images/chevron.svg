@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-2" transform="translate(-696.000000, -671.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Landing">
+                <g id="chevron" transform="translate(696.000000, 671.000000)">
+                    <path d="M30.2625,20.745 L24,26.5 L17.735,20.745 C17.24,20.255 16.44,20.255 15.94,20.745 C15.4475,21.235 15.4475,22.0325 15.94,22.52 L23.1,29.5375 C23.5975,30.0275 24.4,30.0275 24.8925,29.5375 L32.0525,22.52 C32.55,22.0325 32.5475,21.235 32.0525,20.745 C31.56,20.255 30.76,20.255 30.2625,20.745 Z M24,0 C10.745,0 0,10.745 0,24 C0,37.2575 10.745,48 24,48 C37.255,48 48,37.2575 48,24 C48,10.745 37.255,0 24,0 Z M24,44.885 C12.4625,44.885 3.115,35.535 3.115,24 C3.115,12.465 12.4625,3.115 24,3.115 C35.5325,3.115 44.885,12.465 44.885,24 C44.885,35.535 35.5325,44.885 24,44.885 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

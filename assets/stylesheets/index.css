@@ -1,5 +1,64 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400");
-h1 {
-  font-family: Poppins, sans-serif; }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF; }
+
+.cta-button {
+  background-color: white;
+  height: 45px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-family: Poppins, sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 15px; }
+
+#page #landing {
+  height: 100vh; }
+  #page #landing #background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    filter: brightness(50%);
+    overflow: hidden;
+    z-index: -1; }
+  #page #landing h1, #page #landing h2 {
+    text-align: center;
+    margin: 0 auto; }
+  #page #landing h1 {
+    padding-top: 25px;
+    font-size: 55px; }
+  #page #landing h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    max-width: 100%; }
+  #page #landing #landing-action {
+    display: flex;
+    margin: 65% auto 25px;
+    justify-content: center; }
+    #page #landing #landing-action #book {
+      color: white;
+      background-color: #D0021B; }
+    #page #landing #landing-action #listen {
+      color: #D0021B; }
+  #page #landing p {
+    text-align: center;
+    font-size: 18px; }
+  #page #landing #chevron {
+    text-align: center; }
+    #page #landing #chevron img {
+      height: 40px; }
 
 /*# sourceMappingURL=index.css.map */
