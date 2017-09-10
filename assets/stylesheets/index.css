@@ -96,5 +96,56 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 300;
     font-size: 16px;
     margin: 20px 20px; }
+  #page #bio #supporting {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 50px;
+    font-size: 30px; }
+  #page #bio #act-wrapper {
+    margin: 10px auto 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    #page #bio #act-wrapper .act {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+      #page #bio #act-wrapper .act img {
+        height: 75px;
+        width: 75px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: 50% 30%; }
+      #page #bio #act-wrapper .act h3 {
+        font-size: 18px;
+        margin-top: 5px; }
+#page #promo {
+  background-color: #000000; }
+  #page #promo p {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 5px; }
+  #page #promo iframe {
+    width: 100%; }
+  #page #promo #dont-miss {
+    padding-bottom: 25px;
+    margin-bottom: 0px; }
+#page #footer {
+  text-align: center;
+  background-color: #000000;
+  padding-top: 0px; }
+  #page #footer #footer-cta {
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #D0021B; }
+  #page #footer #social-links {
+    display: flex;
+    margin: 45px 10% 0px;
+    padding-bottom: 45px;
+    justify-content: space-between; }
+    #page #footer #social-links i {
+      color: #FFFFFF;
+      font-size: 28px; }
 
 /*# sourceMappingURL=index.css.map */
