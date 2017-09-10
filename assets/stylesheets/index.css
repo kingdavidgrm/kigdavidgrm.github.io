@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 15px; }
 
 #page #landing {
-  height: 100vh; }
+  height: 90vh; }
   #page #landing #background {
     position: absolute;
     height: 100%;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 100%; }
   #page #landing #landing-action {
     display: flex;
-    margin: 45% auto 25px;
+    margin: 40% auto 25px;
     justify-content: center; }
     #page #landing #landing-action #book {
       color: white;
@@ -55,7 +55,8 @@ h1, h2, h3, h4, h5, h6, p {
       color: #D0021B; }
   #page #landing p {
     text-align: center;
-    font-size: 18px; }
+    font-size: 20px;
+    margin-bottom: 10px; }
   #page #landing #chevron {
     text-align: center; }
     #page #landing #chevron img {
