@@ -63,5 +63,17 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 20px; }
     #page #landing #chevron img {
       height: 40px; }
+#page #info {
+  background-color: #000000; }
+  #page #info .info-detail {
+    padding-top: 20px;
+    margin: 0px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #page #info .info-detail img {
+      height: 45px; }
+  #page #info #time {
+    flex-direction: row-reverse; }
 
 /*# sourceMappingURL=index.css.map */
