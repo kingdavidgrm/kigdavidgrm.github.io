@@ -28,12 +28,11 @@ h1, h2, h3, h4, h5, h6, p {
   overflow: hidden; }
   #page #landing #background {
     position: absolute;
-    height: 100%;
+    height: inherit;
     width: 100%;
     object-fit: cover;
     text-align: center;
     filter: brightness(50%);
-    overflow: hidden;
     z-index: -1; }
   #page #landing h1, #page #landing h2 {
     text-align: center;
@@ -75,5 +74,9 @@ h1, h2, h3, h4, h5, h6, p {
       height: 45px; }
   #page #info #time {
     flex-direction: row-reverse; }
+  #page #info #cta {
+    text-align: center; }
+  #page #info #book-now {
+    margin: 0 auto; }
 
 /*# sourceMappingURL=index.css.map */
