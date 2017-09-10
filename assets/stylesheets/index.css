@@ -27,7 +27,7 @@ a {
   margin: 0 15px; }
 
 #page #landing {
-  height: 110%; }
+  height: 100%; }
   #page #landing #background {
     position: absolute;
     height: inherit;
@@ -87,14 +87,14 @@ a {
     font-size: 18px;
     font-weight: 300; }
   #page #info #book-now {
-    margin: 0 auto;
+    margin: 30px auto;
     background-color: #D0021B;
     color: #FFFFFF; }
 #page #bio {
   background-color: #000000; }
   #page #bio img {
     height: 400px;
-    width: 100%;
+    width: 99%;
     object-fit: cover;
     object-position: 58% 50%; }
   #page #bio #bio-text {
@@ -135,7 +135,7 @@ a {
     padding-top: 20px;
     margin-bottom: 5px; }
   #page #promo iframe {
-    width: 100vw; }
+    width: 99vw; }
   #page #promo #dont-miss {
     padding-bottom: 35px;
     margin-bottom: 0px; }
