@@ -88,7 +88,7 @@ a {
     font-size: 18px;
     font-weight: 300; }
   #page #info #book-now {
-    margin: 30px auto;
+    margin: 30px auto 0px;
     background-color: #D0021B;
     color: #FFFFFF; }
 #page #bio {
@@ -134,7 +134,8 @@ a {
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    font-weight: 400; }
   #page #promo iframe {
     width: 100vw; }
   #page #promo #dont-miss {
