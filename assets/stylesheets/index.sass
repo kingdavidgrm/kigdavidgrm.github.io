@@ -31,7 +31,7 @@ h1,h2, h3,h4,h5,h6,p
 #page
     #landing
         height: 100%
-        overflow: hidden
+        //overflow: hidden
         #background
             position: absolute
             height: inherit
@@ -71,6 +71,7 @@ h1,h2, h3,h4,h5,h6,p
             img
                 height: 40px
     #info
+        padding-bottom: 45px
         background-color: $black
         .info-detail
             padding-top: 20px
@@ -78,11 +79,28 @@ h1,h2, h3,h4,h5,h6,p
             display: flex
             align-items: center
             justify-content: space-between
+            p
+                margin: 5px auto
             img
                 height: 45px
         #time
             flex-direction: row-reverse
         #cta
+            margin-top: 45px
             text-align: center
+            font-size: 18px
+            font-weight: 300
         #book-now
             margin: 0 auto
+    #bio
+        background-color: $black
+        img
+            height: 400px
+            width: 100%
+            //width: 100%
+            object-fit: cover
+            object-position: 58% 50%
+        #bio-text
+            font-weight: 300
+            font-size: 14px
+            margin: 10px 10px
