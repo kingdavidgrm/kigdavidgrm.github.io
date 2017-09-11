@@ -39,6 +39,7 @@ a
 #page
     #landing
         height: 110%
+        text-align: center
         #background
             position: absolute
             height: inherit
@@ -48,6 +49,11 @@ a
             z-index: -1
             top: 0
             left: 0
+        #logo
+            max-width: 85%
+            //min-width: 35%
+            margin: 0 auto
+            padding-top: 70px
         h1, h2
             text-align: center
             margin: 0 auto
@@ -179,6 +185,8 @@ a
     #page
         #landing
             height: 100vh
+            #logo
+                max-width: 65%
             h1
                 font-size: 75px
             h2
@@ -245,3 +253,10 @@ a
                 margin: 100px auto 0px
                 i
                     font-size: 32px
+@media screen and (min-width: 1367px)
+    #page
+        #landing
+            h1
+                padding-top: 60px
+            #logo
+                max-width: 35%

@@ -27,7 +27,8 @@ a {
   margin: 0 15px; }
 
 #page #landing {
-  height: 110%; }
+  height: 110%;
+  text-align: center; }
   #page #landing #background {
     position: absolute;
     height: inherit;
@@ -37,6 +38,10 @@ a {
     z-index: -1;
     top: 0;
     left: 0; }
+  #page #landing #logo {
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 70px; }
   #page #landing h1, #page #landing h2 {
     text-align: center;
     margin: 0 auto; }
@@ -167,6 +172,8 @@ a {
 
   #page #landing {
     height: 100vh; }
+    #page #landing #logo {
+      max-width: 65%; }
     #page #landing h1 {
       font-size: 75px; }
     #page #landing h2 {
@@ -229,5 +236,10 @@ a {
       margin: 100px auto 0px; }
       #page #footer #social-links i {
         font-size: 32px; } }
+@media screen and (min-width: 1367px) {
+  #page #landing h1 {
+    padding-top: 60px; }
+  #page #landing #logo {
+    max-width: 35%; } }
 
 /*# sourceMappingURL=index.css.map */
