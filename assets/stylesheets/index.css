@@ -132,7 +132,8 @@ a {
         object-position: 50% 30%; }
       #page #bio #act-wrapper .act h3 {
         font-size: 18px;
-        margin-top: 5px; }
+        margin-top: 5px;
+        min-width: 20%; }
 #page #promo {
   background-color: #000000; }
   #page #promo p {
@@ -164,7 +165,7 @@ a {
       color: #FFFFFF;
       font-size: 28px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .cta-button {
     height: 60px;
     width: 160px;
