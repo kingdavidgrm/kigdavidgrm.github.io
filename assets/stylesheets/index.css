@@ -101,7 +101,7 @@ a {
   #page #bio #bio-text {
     font-weight: 300;
     font-size: 16px;
-    margin: 30px 0px 20px;
+    margin: 30px auto 20px;
     padding: 0px 20px;
     text-align: center;
     max-width: 90%; }
@@ -158,5 +158,76 @@ a {
     #page #footer #social-links i {
       color: #FFFFFF;
       font-size: 28px; }
+
+@media screen and (min-width: 768px) {
+  .cta-button {
+    height: 60px;
+    width: 160px;
+    font-size: 21px; }
+
+  #page #landing {
+    height: 100vh; }
+    #page #landing h1 {
+      font-size: 75px; }
+    #page #landing h2 {
+      font-size: 32px; }
+    #page #landing #background {
+      object-position: 50% 0%; }
+    #page #landing #landing-action {
+      margin-top: 25%; }
+  #page #info #info-wrapper {
+    max-width: 750px;
+    margin: 0 auto; }
+    #page #info #info-wrapper .info-detail {
+      justify-content: flex-start;
+      margin: 25px 0px; }
+      #page #info #info-wrapper .info-detail p {
+        font-size: 22px;
+        margin: 5px 45px; }
+      #page #info #info-wrapper .info-detail img {
+        height: 80px; }
+    #page #info #info-wrapper #location {
+      margin-top: 40px; }
+    #page #info #info-wrapper #time {
+      margin-top: 45px; }
+  #page #info #cta {
+    font-size: 22px; }
+  #page #info #book-now {
+    margin-bottom: 35px; }
+  #page #bio #bio-image {
+    min-height: 500px;
+    object-position: 50% 0%; }
+  #page #bio #bio-text {
+    font-size: 20px;
+    font-weight: 300; }
+  #page #bio #supporting {
+    font-size: 42px;
+    margin-top: 100px; }
+  #page #bio #act-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    max-width: 45%; }
+    #page #bio #act-wrapper .act img {
+      height: 100px;
+      width: 100px;
+      border-radius: 200px; }
+    #page #bio #act-wrapper .act h3 {
+      font-size: 20px; }
+  #page #promo p {
+    font-size: 24px;
+    margin-bottom: 10px; }
+  #page #promo iframe {
+    min-height: 450px; }
+  #page #promo #dont-miss {
+    margin-top: 45px; }
+  #page #footer {
+    padding-top: 0px; }
+    #page #footer #social-links {
+      max-width: 30%;
+      margin: 100px auto 0px; }
+      #page #footer #social-links i {
+        font-size: 32px; } }
 
 /*# sourceMappingURL=index.css.map */
