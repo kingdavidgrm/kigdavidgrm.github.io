@@ -99,7 +99,6 @@ a {
 #page #bio {
   background-color: #000000; }
   #page #bio img {
-    height: 400px;
     width: 100%;
     object-fit: cover;
     object-position: 58% 50%; }
@@ -184,6 +183,7 @@ a {
     #page #landing h2 {
       font-size: 32px; }
     #page #landing #background {
+      height: auto;
       object-position: 50% 0%; }
     #page #landing #landing-action {
       margin-top: 25%; }
