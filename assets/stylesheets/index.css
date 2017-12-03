@@ -27,7 +27,7 @@ a {
   margin: 0 15px; }
 
 #page #landing {
-  height: 110%;
+  height: 100vh;
   text-align: center; }
   #page #landing #background {
     position: absolute;
@@ -54,7 +54,7 @@ a {
     max-width: 100%; }
   #page #landing #landing-action {
     display: flex;
-    margin: 50% auto 25px;
+    margin: 45% auto 25px;
     justify-content: center; }
     #page #landing #landing-action #book {
       color: white;
