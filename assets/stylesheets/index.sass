@@ -2,7 +2,8 @@
 $main-font: Poppins, sans-serif
 $white: #FFFFFF
 $black: #000000
-$red: #D0021B
+//$red: #D0021B
+$red: purple
 
 //*
     border-style: solid
@@ -38,11 +39,11 @@ a
 
 #page
     #landing
-        height: 110%
+        height: 100%
         text-align: center
         #background
             position: absolute
-            height: inherit
+            height: 100%
             width: 100%
             object-fit: cover
             filter: brightness(50%)
@@ -92,12 +93,13 @@ a
                 margin: 0px 5%
                 display: flex
                 align-items: center
-                justify-content: space-between
+                justify-content: center
+                text-align: center
                 p
                     margin: 5px auto
                 img
                     height: 45px
-            #time
+            .time
                 flex-direction: row-reverse
         #cta
             margin-top: 45px
@@ -110,10 +112,9 @@ a
             color: $white
     #bio
         background-color: $black
-        img
-            //height: 400px
+        #bio-image
+            height: 400px
             width: 100%
-            //width: 100%
             object-fit: cover
             object-position: 58% 50%
         #bio-text
@@ -200,7 +201,7 @@ a
             h2
                 font-size: 32px
             #background
-                height: auto
+                //height: auto
                 object-position: 50% 0%
             #landing-action
                 margin-top: 25%
@@ -209,16 +210,18 @@ a
                 max-width: 750px
                 margin: 0 auto
                 .info-detail
-                    justify-content: flex-start
+                    justify-content: center
                     margin: 25px 0px
                     p
                         font-size: 22px
                         margin: 5px 45px
+                        span
+                            font-size: 18px
                     img
                         height: 80px
-                #location
+                .location
                     margin-top: 40px
-                #time
+                .time
                     margin-top: 45px
             #cta
                 font-size: 22px
@@ -231,6 +234,7 @@ a
             #bio-text
                 font-size: 20px
                 font-weight: 300
+                margin: 100px auto
             #supporting
                 font-size: 42px
                 margin-top: 100px
@@ -249,8 +253,8 @@ a
                         font-size: 20px
         #promo
             p
-                font-size: 24px
-                margin-bottom: 10px
+                font-size: 28px
+                margin-bottom: 30px
             iframe
                 min-height: 450px
             #dont-miss
