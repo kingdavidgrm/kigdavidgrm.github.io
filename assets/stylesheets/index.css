@@ -12,243 +12,73 @@ h1, h2, h3, h4, h5, h6, p {
 a {
   text-decoration: none; }
 
-.cta-button {
-  background-color: white;
-  height: 50px;
-  width: 125px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000000;
-  font-family: Poppins, sans-serif;
-  font-weight: 400px;
-  font-size: 20px;
-  text-transform: uppercase;
-  margin: 0 15px; }
-
-#page #landing {
-  height: 110vh;
-  text-align: center; }
-  #page #landing #background {
+body .image-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: -1; }
+body #landing {
+  overflow: auto; }
+  body #landing #hero-img {
     position: absolute;
-    height: 110vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1; }
+    body #landing #hero-img img {
+      position: absolute;
+      z-index: -1;
+      object-position: 50% 50%;
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
+  body #landing #logo-container {
+    z-index: 1;
     width: 100%;
-    object-fit: cover;
-    filter: brightness(50%);
-    z-index: -1;
-    top: 0;
-    left: 0; }
-  #page #landing #logo {
-    max-width: 85%;
-    margin: 0 auto;
-    padding-top: 70px; }
-  #page #landing h1, #page #landing h2 {
-    text-align: center;
-    margin: 0 auto; }
-  #page #landing h1 {
-    padding-top: 25px;
-    font-size: 55px; }
-  #page #landing h2 {
-    text-transform: uppercase;
-    font-size: 24px;
-    max-width: 100%; }
-  #page #landing #landing-action {
-    display: flex;
-    margin: 45% auto 25px;
-    justify-content: center; }
-    #page #landing #landing-action #book {
-      color: white;
-      background-color: purple; }
-    #page #landing #landing-action #listen {
-      color: purple; }
-  #page #landing p {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px; }
-  #page #landing #chevron {
-    text-align: center;
-    margin-bottom: 20px; }
-    #page #landing #chevron img {
-      height: 40px; }
-#page #info {
-  padding-bottom: 45px;
-  background-color: #000000; }
-  #page #info #info-wrapper {
-    padding: 50px 0 20px; }
-    #page #info #info-wrapper .info-detail {
-      padding-top: 20px;
-      margin: 0px 5%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center; }
-      #page #info #info-wrapper .info-detail p {
-        margin: 5px auto; }
-      #page #info #info-wrapper .info-detail img {
-        height: 45px; }
-    #page #info #info-wrapper .time {
-      flex-direction: row-reverse; }
-  #page #info #cta {
-    margin-top: 45px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 300; }
-  #page #info #book-now {
     margin: 30px auto 0px;
-    background-color: purple;
-    color: #FFFFFF; }
-#page #bio {
-  background-color: #000000; }
-  #page #bio #bio-image {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: 58% 50%; }
-  #page #bio #bio-text {
-    font-weight: 300;
-    font-size: 16px;
-    margin: 30px auto 20px;
-    padding: 0px 20px;
-    text-align: center;
-    max-width: 90%; }
-  #page #bio #supporting {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 50px;
-    font-size: 30px; }
-  #page #bio #act-wrapper {
-    margin: 10px auto 0px;
+    text-align: center; }
+    body #landing #logo-container #logo {
+      max-width: 80%; }
+  body #landing #nav {
+    margin: 30px auto 50px;
     display: flex;
     flex-direction: column;
-    text-align: center; }
-    #page #bio #act-wrapper .act {
-      margin-top: 10px;
-      margin-bottom: 20px; }
-      #page #bio #act-wrapper .act img {
-        height: 75px;
-        width: 75px;
-        object-fit: cover;
-        border-radius: 50px;
-        object-position: 50% 30%; }
-      #page #bio #act-wrapper .act h3 {
-        font-size: 18px;
-        margin-top: 5px;
-        min-width: 20%; }
-#page #promo {
-  background-color: #000000; }
-  #page #promo p {
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin-bottom: 5px;
-    font-weight: 400; }
-  #page #promo iframe {
-    width: 100vw;
-    min-height: 300px; }
-  #page #promo #dont-miss {
-    padding-bottom: 35px;
-    margin-bottom: 0px; }
-#page #footer {
-  text-align: center;
-  background-color: #000000;
-  padding-top: 0px; }
-  #page #footer #footer-cta {
-    padding: 20px auto 20px;
-    margin: 0 auto;
-    color: #FFFFFF;
-    background-color: purple; }
-  #page #footer #social-links {
-    display: flex;
-    margin: 55px 10% 0px;
-    padding-bottom: 45px;
-    justify-content: space-between; }
-    #page #footer #social-links i {
+    justify-content: center;
+    color: #FFFFFF; }
+    body #landing #nav .nav-item {
+      margin: 15px auto;
       color: #FFFFFF;
-      font-size: 28px; }
+      text-align: center;
+      font-size: 22px;
+      text-transform: uppercase;
+      max-width: 50vw;
+      cursor: pointer; }
+    body #landing #nav #listen-cta {
+      border: solid 3px #FFFFFF;
+      padding: 3px 30px; }
+      body #landing #nav #listen-cta:hover {
+        background-color: #FFFFFF;
+        color: #000000; }
 
-@media screen and (min-width: 768px) {
-  #page #footer #social-links {
-    margin: 55px 25% 0px; } }
-@media screen and (min-width: 800px) {
-  .cta-button {
-    height: 60px;
-    width: 160px;
-    font-size: 21px; }
-
-  #page #landing {
-    height: 100vh; }
-    #page #landing #logo {
-      max-width: 65%; }
-    #page #landing h1 {
-      font-size: 75px; }
-    #page #landing h2 {
-      font-size: 32px; }
-    #page #landing #background {
-      object-position: 50% 0%; }
-    #page #landing #landing-action {
-      margin-top: 25%; }
-  #page #info #info-wrapper {
-    max-width: 750px;
-    margin: 0 auto; }
-    #page #info #info-wrapper .info-detail {
-      justify-content: center;
-      margin: 25px 0px; }
-      #page #info #info-wrapper .info-detail p {
-        font-size: 22px;
-        margin: 5px 45px; }
-        #page #info #info-wrapper .info-detail p span {
-          font-size: 18px; }
-      #page #info #info-wrapper .info-detail img {
-        height: 80px; }
-    #page #info #info-wrapper .location {
-      margin-top: 40px; }
-    #page #info #info-wrapper .time {
-      margin-top: 45px; }
-  #page #info #cta {
-    font-size: 22px; }
-  #page #info #book-now {
-    margin-bottom: 35px; }
-  #page #bio #bio-image {
-    min-height: 500px;
-    object-position: 50% 0%; }
-  #page #bio #bio-text {
-    font-size: 20px;
-    font-weight: 300;
+@media screen and (min-width: 400px) {
+  body #landing #logo-container #logo {
+    margin-top: 40px; }
+  body #landing #nav {
+    margin: 60px auto; }
+    body #landing #nav .nav-item {
+      margin: 25px auto;
+      font-size: 24px; } }
+@media screen and (min-width: 750px) {
+  body #landing #nav {
     margin: 100px auto; }
-  #page #bio #supporting {
-    font-size: 42px;
-    margin-top: 100px; }
-  #page #bio #act-wrapper {
+    body #landing #nav .nav-item {
+      margin: 40px auto; } }
+@media screen and (min-width: 1000px) {
+  body #landing #nav {
+    max-width: 80%;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding-bottom: 75px;
-    max-width: 45%; }
-    #page #bio #act-wrapper .act img {
-      height: 100px;
-      width: 100px;
-      border-radius: 200px; }
-    #page #bio #act-wrapper .act h3 {
-      font-size: 20px; }
-  #page #promo p {
-    font-size: 28px;
-    margin-bottom: 30px; }
-  #page #promo iframe {
-    min-height: 450px; }
-  #page #promo #dont-miss {
-    margin-top: 45px; }
-  #page #footer {
-    padding-top: 0px; }
-    #page #footer #social-links {
-      max-width: 30%;
-      margin: 100px auto 0px; }
-      #page #footer #social-links i {
-        font-size: 32px; } }
-@media screen and (min-width: 1367px) {
-  #page #landing h1 {
-    padding-top: 60px; }
-  #page #landing #logo {
-    max-width: 35%; } }
+    margin: 40vh auto 0px; }
+    body #landing #nav .nav-item {
+      margin: 40px auto; } }
 
 /*# sourceMappingURL=index.css.map */
