@@ -78,10 +78,12 @@ body #landing {
     body #landing #nav .nav-item {
       margin: 40px auto; } }
 @media screen and (min-width: 1000px) {
+  body #landing #logo-container #logo {
+    max-width: 60%; }
   body #landing #nav {
     max-width: 70%;
     flex-direction: row;
-    margin: 40vh auto 0px; }
+    margin: 45vh auto 0px; }
     body #landing #nav .nav-item {
       margin: 40px auto;
       font-size: 20px; } }
