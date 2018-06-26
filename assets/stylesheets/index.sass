@@ -2,6 +2,7 @@
 $main-font: Poppins, sans-serif
 $white: #FFFFFF
 $black: #000000
+$gold: gold
 
 html, body
     margin: 0
@@ -62,14 +63,18 @@ body
                 text-align: center
                 font-size: 22px
                 text-transform: uppercase
-                max-width: 50vw
+                max-width: 30vw
                 cursor: pointer
+                padding: 3px 0px
 
             #listen-cta
                 border: solid 3px $white
                 padding: 3px 30px
+                background-color: $white
+                color: $black
                 &:hover
-                    background-color: $white
+                    background-color: $gold
+                    border-color: $gold
                     color: $black
 
 @media screen and (min-width: 400px)
@@ -99,9 +104,10 @@ body
     body
         #landing
             #nav
-                max-width: 80%
+                max-width: 70%
                 flex-direction: row
                 margin: 40vh auto 0px
 
                 .nav-item
                     margin: 40px auto
+                    font-size: 20px

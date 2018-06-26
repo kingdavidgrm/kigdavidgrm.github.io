@@ -51,13 +51,17 @@ body #landing {
       text-align: center;
       font-size: 22px;
       text-transform: uppercase;
-      max-width: 50vw;
-      cursor: pointer; }
+      max-width: 30vw;
+      cursor: pointer;
+      padding: 3px 0px; }
     body #landing #nav #listen-cta {
       border: solid 3px #FFFFFF;
-      padding: 3px 30px; }
+      padding: 3px 30px;
+      background-color: #FFFFFF;
+      color: #000000; }
       body #landing #nav #listen-cta:hover {
-        background-color: #FFFFFF;
+        background-color: gold;
+        border-color: gold;
         color: #000000; }
 
 @media screen and (min-width: 400px) {
@@ -75,10 +79,11 @@ body #landing {
       margin: 40px auto; } }
 @media screen and (min-width: 1000px) {
   body #landing #nav {
-    max-width: 80%;
+    max-width: 70%;
     flex-direction: row;
     margin: 40vh auto 0px; }
     body #landing #nav .nav-item {
-      margin: 40px auto; } }
+      margin: 40px auto;
+      font-size: 20px; } }
 
 /*# sourceMappingURL=index.css.map */
