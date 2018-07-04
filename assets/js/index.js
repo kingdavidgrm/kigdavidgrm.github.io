@@ -15,5 +15,5 @@ function scrollToContact()  { scrollToDiv(contact); }
 
 function scrollToDiv(div) {
 // Spelling 'behavior' with a 'u' breaks smooth scrolling..
-    div.scrollIntoView({behavior: "smooth", block: "center"});
+    div.scrollIntoView({behavior: "smooth"});
 }
