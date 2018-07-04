@@ -1,5 +1,5 @@
 var quickReveal = ScrollReveal({
-    duration: 400, scale: 1, viewFactor: 0.3,
+    duration: 600, scale: 1, viewFactor: 0.3,
     easing: "ease"
 });
 
