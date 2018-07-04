@@ -1,10 +1,15 @@
-var sr = ScrollReveal({
-    duration: 700, scale: 1, viewFactor: 0.3,
+var quickReveal = ScrollReveal({
+    duration: 400, scale: 1, viewFactor: 0.3,
     easing: "ease"
 });
 
-sr.reveal('.spread-image');
-sr.reveal('.fade-in');
+var slowReveal = ScrollReveal({
+    duration: 800, scale: 1, viewFactor: 0.3,
+    easing: "ease"
+});
+
+quickReveal.reveal('.spread-image');
+slowReveal.reveal('.fade-in');
 
 var music   = document.getElementById("music-wrapper");
 var shows   = document.getElementById("shows-wrapper");
