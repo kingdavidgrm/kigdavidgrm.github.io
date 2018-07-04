@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300");
 html, body {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: Poppins, sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   color: #FFFFFF; }
 
 a {
@@ -18,6 +18,12 @@ body .image-overlay {
   height: 100%;
   width: 100%;
   z-index: -1; }
+body .spread-image img {
+  height: 350px;
+  object-fit: cover;
+  width: 100%; }
+body .left-aligned-image {
+  object-position: left; }
 body #landing {
   overflow: auto; }
   body #landing #hero-img {
@@ -63,6 +69,59 @@ body #landing {
         background-color: gold;
         border-color: gold;
         color: #000000; }
+body #music {
+  color: #000000;
+  background-color: #FFFFFF;
+  margin: 250px auto 200px; }
+  body #music .section-text {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px; }
+  body #music #music-icon-container {
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+    body #music #music-icon-container a i {
+      color: #000000;
+      margin: 0 15px;
+      font-size: 40px; }
+body #shows {
+  margin: 250px auto; }
+  body #shows p {
+    margin: 0 auto;
+    max-width: 90%;
+    color: #000000;
+    text-align: center; }
+  body #shows a #booking-cta {
+    background-color: #000000;
+    display: block;
+    margin: 40px auto 20px;
+    max-width: 50px;
+    padding: 3px 7px; }
+    body #shows a #booking-cta p {
+      color: #FFFFFF; }
+body #about {
+  margin: 250px auto; }
+  body #about p {
+    color: #000000;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center; }
+body #contact {
+  text-align: center;
+  margin: 250px auto; }
+  body #contact p {
+    color: #000000; }
+    body #contact p a {
+      text-decoration: underline; }
+  body #contact #social-media-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center; }
+    body #contact #social-media-container a i {
+      color: #000000;
+      margin: 0px 15px;
+      font-size: 22px; }
 
 @media screen and (min-width: 400px) {
   body #landing #logo-container #logo {
@@ -87,5 +146,8 @@ body #landing {
     body #landing #nav .nav-item {
       margin: 40px auto;
       font-size: 20px; } }
+@media screen and (min-width: 1400px) {
+  body #landing #nav {
+    margin-top: 50vh; } }
 
 /*# sourceMappingURL=index.css.map */

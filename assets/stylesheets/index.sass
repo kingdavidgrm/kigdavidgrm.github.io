@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400')
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300')
 $main-font: Poppins, sans-serif
 $white: #FFFFFF
 $black: #000000
@@ -11,7 +11,7 @@ html, body
 
 h1,h2, h3,h4,h5,h6,p
     font-family: $main-font
-    font-weight: 300
+    font-weight: 200
     color: $white
 
 a
@@ -24,6 +24,15 @@ body
         height: 100%
         width: 100%
         z-index: -1
+
+    .spread-image
+        img
+            height: 350px
+            object-fit: cover
+            width: 100%
+
+    .left-aligned-image
+        object-position: left
 
     #landing
         overflow: auto
@@ -66,6 +75,8 @@ body
                 max-width: 30vw
                 cursor: pointer
                 padding: 3px 0px
+                &:hover
+                    // color: $gold
 
             #listen-cta
                 border: solid 3px $white
@@ -76,6 +87,76 @@ body
                     background-color: $gold
                     border-color: $gold
                     color: $black
+
+    #music
+        color: $black
+        background-color: $white
+        margin: 250px auto 200px
+
+        .section-text
+            text-align: center
+            color: $black
+            margin-bottom: 40px
+
+        #music-icon-container
+            display: flex
+            width: 100%
+            justify-content: center
+
+            a
+                i
+                    color: $black
+                    margin: 0 15px
+                    font-size: 40px
+
+    #shows
+        margin: 250px auto
+
+        p
+            margin: 0 auto
+            max-width: 90%
+            color: $black
+            text-align: center
+
+        a
+            #booking-cta
+                background-color: $black
+                display: block
+                margin: 40px auto 20px
+                max-width: 50px
+                padding: 3px 7px
+
+                p
+                    color: $white
+
+    #about
+        margin: 250px auto
+        p
+            color: $black
+            max-width: 90%
+            margin: 0 auto
+            text-align: center
+
+    #contact
+        text-align: center
+        margin: 250px auto
+
+        p
+            color: $black
+
+            a
+                text-decoration: underline
+
+        #social-media-container
+            margin-top: 45px
+            display: flex
+            justify-content: center
+
+            a
+                i
+                    color: $black
+                    margin: 0px 15px
+                    font-size: 22px
 
 @media screen and (min-width: 400px)
     body
@@ -114,3 +195,10 @@ body
                 .nav-item
                     margin: 40px auto
                     font-size: 20px
+
+
+@media screen and (min-width: 1400px)
+    body
+        #landing
+            #nav
+                margin-top: 50vh
