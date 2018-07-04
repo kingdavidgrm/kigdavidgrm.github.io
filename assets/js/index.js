@@ -1,7 +1,14 @@
-var music   = document.getElementById("music-wrapper")
-var shows   = document.getElementById("shows-wrapper")
-var about   = document.getElementById("about-wrapper")
-var contact = document.getElementById("contact-wrapper")
+var sr = ScrollReveal({
+    reset: true, duration: 700, scale: 1, viewFactor: 0.3,
+    easing: "ease"
+});
+
+sr.reveal('.spread-image');
+
+var music   = document.getElementById("music-wrapper");
+var shows   = document.getElementById("shows-wrapper");
+var about   = document.getElementById("about-wrapper");
+var contact = document.getElementById("contact-wrapper");
 
 // If you're reading this code, please dont't hate.
 // Yes I'd like it to be DRYer, but I'd also like to
