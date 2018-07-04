@@ -1,5 +1,5 @@
 var sr = ScrollReveal({
-    reset: true, duration: 700, scale: 1, viewFactor: 0.3,
+    duration: 700, scale: 1, viewFactor: 0.3,
     easing: "ease"
 });
 
