@@ -127,6 +127,8 @@ body #contact-wrapper #social-media-container {
     color: #000000;
     margin: 0px 15px;
     font-size: 22px; }
+body #spacing-div {
+  margin-top: 50px; }
 
 @media screen and (min-width: 400px) {
   body #landing #logo-container #logo {
