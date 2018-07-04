@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: #FFFFFF; }
 
 p {
-  font-size: 18px; }
+  font-size: 16px; }
 
 a {
   text-decoration: none; }
@@ -74,7 +74,7 @@ body #landing {
 body #music-wrapper #music {
   color: #000000;
   background-color: #FFFFFF;
-  margin: 250px auto 200px; }
+  margin: 200px auto 150px; }
   body #music-wrapper #music .section-text {
     text-align: center;
     color: #000000;
@@ -88,7 +88,7 @@ body #music-wrapper #music {
       margin: 0 15px;
       font-size: 40px; }
 body #shows-wrapper #shows {
-  margin: 250px auto; }
+  margin: 150px auto; }
   body #shows-wrapper #shows p {
     margin: 0 auto;
     max-width: 90%;
@@ -105,7 +105,7 @@ body #shows-wrapper #shows {
       color: #FFFFFF;
       text-transform: uppercase; }
 body #about-wrapper #about {
-  margin: 250px auto; }
+  margin: 150px auto; }
   body #about-wrapper #about p {
     color: #000000;
     max-width: 90%;
@@ -113,7 +113,7 @@ body #about-wrapper #about {
     text-align: center; }
 body #contact-wrapper #contact {
   text-align: center;
-  margin: 250px auto 250px; }
+  margin: 150px auto 250px; }
   body #contact-wrapper #contact p {
     color: #000000; }
     body #contact-wrapper #contact p a {
