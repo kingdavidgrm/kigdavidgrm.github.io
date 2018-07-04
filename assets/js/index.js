@@ -4,6 +4,7 @@ var sr = ScrollReveal({
 });
 
 sr.reveal('.spread-image');
+sr.reveal('.fade-in');
 
 var music   = document.getElementById("music-wrapper");
 var shows   = document.getElementById("shows-wrapper");
