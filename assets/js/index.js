@@ -1,7 +1,7 @@
-var music   = document.getElementById("music")
-var shows   = document.getElementById("shows")
-var music   = document.getElementById("music")
-var contact = document.getElementById("contact")
+var music   = document.getElementById("music-wrapper")
+var shows   = document.getElementById("shows-wrapper")
+var music   = document.getElementById("about-wrapper")
+var contact = document.getElementById("contact-wrapper")
 
 // If you're reading this code, please dont't hate.
 // Yes I'd like it to be DRYer, but I'd also like to

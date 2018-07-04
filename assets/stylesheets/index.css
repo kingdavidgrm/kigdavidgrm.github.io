@@ -71,62 +71,62 @@ body #landing {
         background-color: #FFFFFF;
         border-color: #FFFFFF;
         color: #000000; }
-body #music {
+body #music-wrapper #music {
   color: #000000;
   background-color: #FFFFFF;
   margin: 250px auto 200px; }
-  body #music .section-text {
+  body #music-wrapper #music .section-text {
     text-align: center;
     color: #000000;
     margin-bottom: 40px; }
-  body #music #music-icon-container {
+  body #music-wrapper #music #music-icon-container {
     display: flex;
     width: 100%;
     justify-content: center; }
-    body #music #music-icon-container a i {
+    body #music-wrapper #music #music-icon-container a i {
       color: #000000;
       margin: 0 15px;
       font-size: 40px; }
-body #shows {
+body #shows-wrapper #shows {
   margin: 250px auto; }
-  body #shows p {
+  body #shows-wrapper #shows p {
     margin: 0 auto;
     max-width: 90%;
     color: #000000;
     text-align: center; }
-  body #shows a #booking-cta {
+  body #shows-wrapper #shows a #booking-cta {
     background-color: #000000;
     display: block;
     margin: 40px auto 20px;
     max-width: 80px;
     font-size: 20px;
     padding: 7px 15px; }
-    body #shows a #booking-cta p {
+    body #shows-wrapper #shows a #booking-cta p {
       color: #FFFFFF;
       text-transform: uppercase; }
-body #about {
+body #about-wrapper #about {
   margin: 250px auto; }
-  body #about p {
+  body #about-wrapper #about p {
     color: #000000;
     max-width: 90%;
     margin: 0 auto;
     text-align: center; }
-body #contact {
+body #contact-wrapper #contact {
   text-align: center;
   margin: 250px auto 250px; }
-  body #contact p {
+  body #contact-wrapper #contact p {
     color: #000000; }
-    body #contact p a {
+    body #contact-wrapper #contact p a {
       text-decoration: underline;
       color: #000000; }
-  body #contact #social-media-container {
-    margin-top: 45px;
-    display: flex;
-    justify-content: center; }
-    body #contact #social-media-container a i {
-      color: #000000;
-      margin: 0px 15px;
-      font-size: 22px; }
+body #contact-wrapper #social-media-container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center; }
+  body #contact-wrapper #social-media-container a i {
+    color: #000000;
+    margin: 0px 15px;
+    font-size: 22px; }
 
 @media screen and (min-width: 400px) {
   body #landing #logo-container #logo {
