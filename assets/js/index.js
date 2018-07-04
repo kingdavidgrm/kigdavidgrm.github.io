@@ -1,6 +1,6 @@
 var music   = document.getElementById("music-wrapper")
 var shows   = document.getElementById("shows-wrapper")
-var music   = document.getElementById("about-wrapper")
+var about   = document.getElementById("about-wrapper")
 var contact = document.getElementById("contact-wrapper")
 
 // If you're reading this code, please dont't hate.
@@ -15,5 +15,5 @@ function scrollToContact()  { scrollToDiv(contact); }
 
 function scrollToDiv(div) {
 // Spelling 'behavior' with a 'u' breaks smooth scrolling..
-    div.scrollIntoView({behavior: "smooth"});
+    div.scrollIntoView({behavior: "smooth", block: "start"});
 }
