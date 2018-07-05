@@ -188,6 +188,10 @@ body
 
 @media screen and (min-width: 1000px)
     body
+        .spread-image
+            img
+                height: 400px
+
         #landing
             #logo-container
                 #logo
@@ -201,9 +205,52 @@ body
                     margin: 40px auto
                     font-size: 20px
 
+        #music-wrapper, #shows-wrapper, #about-wrapper, #contact-wrapper
+            margin: 300px auto
 
-@media screen and (min-width: 1400px)
+        #music-wrapper
+            margin-top: 350px
+            #music
+                br
+                    display: none
+
+        #shows-wrapper
+            #shows
+                a
+                    #booking-cta
+                        border: solid 2p $black
+                        &:hover
+                            background-color: $white
+                            border: solid 2px $black
+
+                            p
+                                color: $black
+
+        #about-wrapper
+            #about
+                p
+                    max-width: 60%
+
+        #contact-wrapper
+            #contact
+                #social-media-container
+                    a
+                        i
+                            &:hover
+                                color: #555
+
+@media screen and (min-width: 1200px)
     body
+        .spread-image
+            img
+                height: 500px
+
         #landing
             #nav
                 margin-top: 50vh
+
+@media screen and (min-width: 1500px)
+    body
+        .spread-image
+            img
+                height: 700px

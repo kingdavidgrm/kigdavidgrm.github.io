@@ -144,6 +144,8 @@ body #contact-wrapper {
     body #landing #nav .nav-item {
       margin: 40px auto; } }
 @media screen and (min-width: 1000px) {
+  body .spread-image img {
+    height: 400px; }
   body #landing #logo-container #logo {
     max-width: 60%; }
   body #landing #nav {
@@ -152,9 +154,31 @@ body #contact-wrapper {
     margin: 45vh auto 0px; }
     body #landing #nav .nav-item {
       margin: 40px auto;
-      font-size: 20px; } }
-@media screen and (min-width: 1400px) {
+      font-size: 20px; }
+  body #music-wrapper, body #shows-wrapper, body #about-wrapper, body #contact-wrapper {
+    margin: 300px auto; }
+  body #music-wrapper {
+    margin-top: 350px; }
+    body #music-wrapper #music br {
+      display: none; }
+  body #shows-wrapper #shows a #booking-cta {
+    border: solid 2p #000000; }
+    body #shows-wrapper #shows a #booking-cta:hover {
+      background-color: #FFFFFF;
+      border: solid 2px #000000; }
+      body #shows-wrapper #shows a #booking-cta:hover p {
+        color: #000000; }
+  body #about-wrapper #about p {
+    max-width: 60%; }
+  body #contact-wrapper #contact #social-media-container a i:hover {
+    color: #555; } }
+@media screen and (min-width: 1200px) {
+  body .spread-image img {
+    height: 500px; }
   body #landing #nav {
     margin-top: 50vh; } }
+@media screen and (min-width: 1500px) {
+  body .spread-image img {
+    height: 700px; } }
 
 /*# sourceMappingURL=index.css.map */
