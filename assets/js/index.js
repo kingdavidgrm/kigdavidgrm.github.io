@@ -14,5 +14,8 @@ slowReveal.reveal('.fade-in');
 function scrollToDiv(div) {
     el = document.getElementById(div)
     // Spelling 'behavior' with a 'u' breaks smooth scrolling..
-    el.scrollIntoView({behavior: "smooth", block: "center"});
+    if (window.innerHeight > 600)
+        el.scrollIntoView({behavior: "smooth", block: "center"});
+    else
+        el.scrollIntoView(false, {behavior: "smooth", block: "center"});
 }
