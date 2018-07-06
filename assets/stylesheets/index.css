@@ -118,7 +118,8 @@ body #contact-wrapper {
   body #contact-wrapper #contact {
     text-align: center; }
     body #contact-wrapper #contact p {
-      color: #000000; }
+      color: #000000;
+      font-weight: bold; }
       body #contact-wrapper #contact p a {
         text-decoration: underline;
         color: #000000; }
