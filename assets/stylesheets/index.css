@@ -116,7 +116,9 @@ body #about-wrapper {
 body #contact-wrapper {
   margin: 150px auto 150px; }
   body #contact-wrapper #contact {
-    text-align: center; }
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto; }
     body #contact-wrapper #contact p {
       color: #000000;
       font-weight: bold; }
